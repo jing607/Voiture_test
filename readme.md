@@ -1,4 +1,4 @@
-# Car_test
+# Voiture_test
 # Command git
 * git status
 * git add .
@@ -6,4 +6,4 @@
 * git push origin main
 
 ## Url du projet
-[La page](https://github.com/jing607/car_test)
+[La page](https://github.com/jing607/Voiture_test)
