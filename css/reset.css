@@ -1,0 +1,38 @@
+
+
+h1, h2, ul, body, p, figure, ol, blockquote, button{
+    margin: 0px;
+    padding: 0px;
+	border: none;
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+body {
+	font: 1.6rem 'Raleway', sans-serif;
+	line-height: 1.6;
+	letter-spacing: .1rem;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
