@@ -1,4 +1,5 @@
 $(document).ready((e)=>{
+    console.log("ok")
     let list, i
 
     list = $("ul");

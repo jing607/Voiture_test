@@ -1,19 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap');
 
+/* Reset */
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-    background: rgb(218, 218, 218) url(../asset/montage.jpg) no-repeat fixed center center / cover;
+    background: rgb(218, 218, 218)；
 }
 body{
     font: 1.6rem 'Roboto', sans-serif;
     margin: 0;
   
 }
-*{
+
+* {
     box-sizing: border-box;
 }
+
 h1,h2,h3,h4,p,figure,ul{
     margin: 0;
     padding: 0;
@@ -24,9 +28,35 @@ a{
     color: #222;
 }
 button{
-    padding: .4rem 1rem;
+    padding: 0;
     font-size: inherit;
     border: 0;
-    background: white;
+    background: none;
     cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle; 
+}
+
+/* Theme */
+header h1{
+    text-align: center;
+    line-height: 6rem;
+}
+
+footer *{
+    text-align: center;
+}
+
+
+.read {
+    padding: 0 10rem;
+}
+
+li {
+
 }
