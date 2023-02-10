@@ -24,9 +24,9 @@ a{
     color: #222;
 }
 button{
-    padding: 0;
+    padding: .4rem 1rem;
     font-size: inherit;
     border: 0;
-    background: none;
+    background: white;
     cursor: pointer;
 }

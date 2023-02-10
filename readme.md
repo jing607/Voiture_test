@@ -2,7 +2,7 @@
 # Command git
 * git status
 * git add .
-* git commit -m "modification file css"
+* git commit -m "modification file"
 * git push origin main
 
 ## Url du projet

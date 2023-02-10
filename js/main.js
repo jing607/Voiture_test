@@ -3,7 +3,7 @@ $(document).ready((e)=>{
 
     list = $("ul");
 
-    $('#charger').on('click',()=>{ //event jquery and callback json
+    $('#charger').on('click',()=>{ 
 
         $.getJSON('js/data.json', (data)=>{
             for(i = 0; i <data.voitures.length; i++) {
