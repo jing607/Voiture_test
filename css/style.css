@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap');
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: rgb(218, 218, 218) url(../asset/montage.jpg) no-repeat fixed center center / cover;
+}
+body{
+    font: 1.6rem 'Roboto', sans-serif;
+    margin: 0;
+  
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,p,figure,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+button{
+    padding: 0;
+    font-size: inherit;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
